@@ -1,7 +1,10 @@
 def oxford_comma(array)
-array.join 
-end
-
-def oxford_comma(array)
-  array.join(' and ')
+if array.count == 1 then array.join 
+elsif array.count == 2 then array.join(' and ')
+elsif array.count >= 
+array[-1].insert(0, 'and ') 
+array.join(', ')
 end 
+end 
+
+  
